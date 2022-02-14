@@ -4,6 +4,7 @@
 
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: linear-gradient(180deg, #b0c8e3 0, #618db8 50%, #00568f 100%);
   overflow-x: hidden;
   width: 100vw;
 }
