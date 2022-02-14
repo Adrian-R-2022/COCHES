@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+header nav div div ul li a {
+  color: rgb(255, 255, 255) !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 29px !important;
+}
+
+.navbar-brand2 {
+  color: white !important;
+  font-size: 15px !important;
+  text-decoration: none !important;
+  top: 15px;
+  right: 95px;
+  position: relative;
+}
+
+.container-main {
+  background: white;
+  max-width: 1730px;
+  margin: 10px auto;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  max-height: auto;
+}
+
+h1 {
+  font-family: "Junge", serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+hr {
+  height: 1px !important;
+  background-color: rgb(158, 158, 158);
+  opacity: 1 !important;
+}
+
+span {
+  color: #000000;
+}
+
+.btn-primary {
+  background-color: #066bad;
+}
+
+.card {
+  background-color: white;
+}
+
+.btn-primary {
+  border: 0;
+  font-family: "Junge", serif;
+  font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+  background-color: #04a7e7;
+}
+
+.card-group {
+  justify-content: space-between !important;
+}
+
+.centra {
+  text-align: center;
+}
+
+.formulario {
+  justify-content: center;
+}
+
+.footer {
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.footer h5 {
+  color: #000000;
+}
+
+.footer h6 {
+  color: white;
+}
+
+.footer a:link {
+  text-decoration: none;
+}
+
+.card-body p {
+  text-align: justify;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+h5 {
+  color: royalblue;
+}
+
+.form-sesion {
+  padding: 30px 90px;
+  height: 492px;
+}
+
+.form-sesion2 {
+  padding: 30px 90px;
+}

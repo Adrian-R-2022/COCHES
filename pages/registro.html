@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="../css3/style.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header class="header p-2 mb-3 bg-danger text-white">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid justify-content-center">
+          <a href="#" class="navbar-brand">
+            <img height="65" width="65" src="../assets/img/llanta.png" alt="Coches" />
+            Coches
+          </a>
+          <a href="#" class="navbar-brand2"> Compra y Venta </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cochesnuevos.html">COCHES NUEVOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vendecoche.html">VENDE TU COCHE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cochesusados.html">COCHES USADOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html">NOTICIAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a href="inicio-sesion.html"><input type="button" value="Iniciar sesión" class="btn btn-primary btn-sm" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="container-main">
+        <div class="container-fluid">
+          <form>
+            <br />
+            <h2>Registro</h2>
+            <hr />
+            <div class="form-sesion2">
+              <div class="form-floating mb-3 col-md-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="First name" />
+                <label for="floatingInput">Nombre</label>
+              </div>
+              <div class="form-floating mb-3 col-md-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="First name" />
+                <label for="floatingInput">Apellidos</label>
+              </div>
+              <div class="form-floating mb-3 col-md-3">
+                <input type="tel" class="form-control" id="floatingInput" placeholder="First name" />
+                <label for="floatingInput">Telefono</label>
+              </div>
+              <div class="mb-3 col-md-3">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Lugar de Nacimiento</option>
+                  <option value="1">Guanajuato</option>
+                  <option value="2">Queretaro</option>
+                </select>
+              </div>
+              <div class="correo form-floating mb-3 col-md-3">
+                <input type="date" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                <label for="floatingInput">Fecha de Nacimiento</label>
+              </div>
+              <div class="correo form-floating mb-3 col-md-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                <label for="floatingInput">Correo electrónico</label>
+              </div>
+              <div class="form-floating col-md-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
+                <label for="floatingPassword">Contraseña</label>
+              </div>
+              <div class="form-floating">
+                <br />
+                <button type="submit" class="btn btn-success">Terminar Registro</button>
+              </div>
+            </div>
+          </form>
+          <br />
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-danger text-white p-1">
+      <div class="container-fluid">
+        <ul class="footer nav justify-content-around p-3">
+          <li class="nav-item">
+            <h5>Ayuda</h5>
+            <h6>Sobre Coches compra y venta</h6>
+            <h6>Términos y condiciones</h6>
+            <a href="contacto.html"><h6>Contacto</h6></a>
+          </li>
+          <li class="nav-item">
+            <h5>Sitios</h5>
+            <a href="cochesnuevos.html"><h6>Coches nuevos</h6></a>
+            <a href="cochesusados.html"><h6>Coches usados</h6></a>
+          </li>
+          <li class="nav-item">
+            <h5>Información</h5>
+            <a href="noticias.html"><h6>Noticias</h6></a>
+          </li>
+          <li class="nav-item">
+            <br />
+            <a href="https://www.facebook.com/" target="_blank"><img height="40" width="40" src="../assets/img/face.png" alt="Facebook.com" /></a>
+            <a href="https://www.instagram.com" target="_blank"><img height="40" width="40" src="../assets/img/insta.png" alt="Instagram.com" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- Íconos de Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--JS Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
