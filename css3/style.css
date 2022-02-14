@@ -121,3 +121,9 @@ h5 {
 .form-sesion2 {
   padding: 30px 90px;
 }
+
+.imagen-social:hover {
+  opacity: 0.9;
+  background-color: wheat;
+  border-radius: 10px;
+}
