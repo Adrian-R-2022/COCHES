@@ -15,11 +15,8 @@ header nav div div ul li a {
   color: rgb(255, 255, 255) !important;
 }
 
-img {
-  overflow: hidden;
-  transition: all 500ms ease;
-  border-radius: 5px;
-  box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.2);
+nav ul li a:hover {
+  background-color: rgb(199, 199, 199);
 }
 
 .navbar-brand {
@@ -34,14 +31,6 @@ img {
   top: 15px;
   right: 95px;
   position: relative;
-}
-
-nav ul li a:hover {
-  background-color: rgb(199, 199, 199);
-}
-
-li.no:hover {
-  background-color: 0;
 }
 
 .container-main {
@@ -73,11 +62,6 @@ span {
 
 .card {
   background-color: white;
-}
-
-.card:hover {
-  box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
-  transform: translateY(-1%);
 }
 
 .btn-primary {
