@@ -29,6 +29,14 @@ header nav div div ul li a {
   position: relative;
 }
 
+nav ul li a:hover {
+  background-color: rgb(199, 199, 199);
+}
+
+li.no:hover {
+  background-color: 0;
+}
+
 .container-main {
   background: white;
   max-width: 1730px;
