@@ -64,6 +64,11 @@ span {
   background-color: white;
 }
 
+.card:hover {
+  box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
+  transform: translateY(-1%);
+}
+
 .btn-primary {
   border: 0;
   font-family: "Junge", serif;
