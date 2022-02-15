@@ -6,13 +6,20 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-image: linear-gradient(180deg, #b0c8e3 0, #618db8 50%, #00568f 100%);
+<<<<<<< HEAD
 
+=======
+>>>>>>> rama-css3
   min-height: 100vh;
   position: relative;
 }
 
 header nav div div ul li a {
   color: rgb(255, 255, 255) !important;
+}
+
+nav ul li a:hover {
+  background-color: rgb(199, 199, 199);
 }
 
 .navbar-brand {
@@ -58,6 +65,11 @@ span {
 
 .card {
   background-color: white;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.2);
+  transform: translateY(-1%);
 }
 
 .btn-primary {
