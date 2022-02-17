@@ -15,6 +15,10 @@ header nav div div ul li a {
   color: rgb(255, 255, 255) !important;
 }
 
+nav ul li a {
+  font-size: 17px;
+}
+
 nav ul li a:hover {
   background-color: rgb(199, 199, 199);
 }
@@ -140,4 +144,46 @@ h5 {
   opacity: 0.9;
   background-color: wheat;
   border-radius: 10px;
+}
+
+.nav-menu_visible {
+  left: 0 !important;
+}
+
+/*Style media querys*/
+
+@media (max-width: 575px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+  nav ul li a {
+    font-size: 13px;
+  }
+  .container-main {
+    max-width: 1330px;
+    margin: 0px 20px;
+  }
+  .btn-primary {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  nav ul li a {
+    font-size: 13px;
+  }
+  .container-main {
+    max-width: 1330px;
+    margin: 0px 20px;
+  }
+
+  .btn-primary {
+    font-size: 1rem;
+  }
 }
