@@ -6,7 +6,7 @@
 
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-image: linear-gradient(180deg, #b0c8e3 0, #618db8 50%, #00568f 100%);
+  background-image: linear-gradient(180deg, #b9b9b9 0, #fcfcfc 50%, #b9b9b9 100%);
   min-height: 100vh;
   position: relative;
 }
@@ -108,7 +108,7 @@ footer {
 }
 
 .footer h5 {
-  color: #000000;
+  color: #e0e0e0;
 }
 
 .footer h6 {
