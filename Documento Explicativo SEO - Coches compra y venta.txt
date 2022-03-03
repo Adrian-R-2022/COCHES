@@ -1,5 +1,5 @@
 ﻿Coches compra y venta
-Títulos de la pagína:
+Títulos de la página:
 index.html
 	Coches
 	cochesnuevos.html
