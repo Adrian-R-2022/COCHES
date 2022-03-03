@@ -1,0 +1,80 @@
+﻿Coches compra y venta
+Títulos de la pagína:
+index.html
+	Coches
+	cochesnuevos.html
+	Coches Nuevos
+	vendecoche.html
+	Vende tu coche
+	cochesusados.html
+	Coches Usados
+	noticias.html
+	Noticias
+	contacto.html
+	Contacto
+	Inicio-sesion.html
+	Inicio de sesión
+	Registro.html
+	Registro
+	 
+ 
+Palabras clave meta
+index.html
+	coche, coches, compra, venta, sobre coches.
+	cochesnuevos.html
+	coches nuevos, car new, coches new, nuevos coches
+	vendecoche.html
+	vende coches, vende tu coche, publica tu coche, coche en venta.
+	cochesusados.html
+	coches usados, used cars, coches used, coches seminuevos
+	noticias.html
+	noticias de coches, news, nuevas noticias, noticias recientes
+	contacto.html
+	contacto, contacto de coches, contact, contactos
+	Inicio-sesion.html
+	inicio de sesión, iniciar sesion, sesion de coches, login coches
+	Registro.html
+	registrar cuenta, registro en coches, record, registro
+	 
+Descripciones meta
+index.html
+	Descripción de index (Compra y venta de todo tipo de coches en México.)
+	cochesnuevos.html
+	Descripción de cochesnuevos (Compra de coches completamente nuevos en México.)
+	vendecoche.html
+	Descripción de vendecoche (Publica y vende tu coche en México en la página de Coches compra y venta.)
+	cochesusados.html
+	Descripción de cochesusados (Compra de coches usados en México.)
+	noticias.html
+	Descripción de noticias (Consulta las noticias más recientes sobre coches mas modernos en Coches compra y venta)
+	contacto.html
+	Descripción de contacto (Si tienes alguna consulta contactanos en nuestra página coches compra y venta)
+	Inicio-sesion.html
+	Descripción de Inicio-sesion (Inicia sesión en Coches compra y venta para la publicación coches nuevos ó usados
+)
+	Registro.html
+	Descripción de registro (Registrate para publicar tu coche en Coches compra y venta de coches nuevos y usados)
+	 
+ 
+Esquema de la página
+La página de Coches compra y venta se ha ido modificando y mejorando en el transcurso de la cursada desde la estructura y maquetado de la página y el aspecto en cuanto a los botones, colores, transiciones, hover, frameworks bootstrap, tipografía y entre otras propiedades.
+Los aspectos que se modificaron recientemente al punto anterior son las siguiente:
+Se cambió el color de fondo en el body linear-gradient con un color gris blanco gris.
+En todas las páginas.html se aplicó para el encabezado h1 con una tipografía "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; para una mejor lectura en cada una de las páginas, así como también se aplicó el framework boostrap ya que da la facilidad de aplicar los grids de forma más sencilla llamando a las clases de dicho frameworks agregando el menú, las secciones y footer, posteriormente también hace la función del responsive.
+En las secciones de las páginas index.html, cochesnuevos.html, cochesusados.html, noticias.html se agregaron transiciones en la clase cards.
+En los formularios de cajas de textos y botones  igual se aplicó el framework bootstraps llamando a las clase en las páginas contacto.html, vendecoche.html, inicio-sesion.html y registro.html. 
+Se implementó el hover en el botón de inicio de sesión con propiedades scss.
+Se agregaron los Keyword y descripciones para el SEO en cada una de las paginas para una mejor búsqueda en los motores de  búsqueda google. Un ejemplo del index.html
+ <title>Coches</title>
+    <meta name="description" content="Compra y venta de todo tipo de coches en México." />
+    <meta name="keywords" content="coche, coches, compra, venta, sobre coches" />
+
+
+Se agregó el icono en las pestañas de cada una de las páginas..
+ <link rel="icon" href="assets/img/llanta.png" />
+
+
+También se mejoró lo que es la parte del footer dándole un color de gris plata en los encabezados h5  así como también se agregó otro div para una mejor visualización.
+Se quitó el hover en los iconos de facebook e instagram ya no resaltaba mucho.
+Se agregó un enlace de inicio al icono de Coches en cada una de las páginas.
+Se aplicó SASS como los mapas, map-get, mixins, extends, declaración de variables y se importaron a otro archivo para una mejor optimización y reutilización de código.
