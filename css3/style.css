@@ -20,7 +20,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #c7c7c7;
+  background-color: #c7c7c7 !important;
 }
 
 .navbar-brand {
@@ -38,14 +38,14 @@ nav ul li a:hover {
 }
 
 .container-main {
-  background-color: white;
+  background-color: white !important;
   max-width: 1730px;
   margin: 0px auto;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  font-family: "Junge", serif;
+  font-family: "Junge" serif;
   font-size: 3rem;
   font-weight: bold;
 }
@@ -57,7 +57,7 @@ hr {
 }
 
 span {
-  color: black;
+  color: black !important;
 }
 
 .btn-primary {
@@ -65,7 +65,7 @@ span {
 }
 
 .card {
-  background-color: white;
+  background-color: white !important;
 }
 
 .card:hover {
@@ -75,12 +75,12 @@ span {
 
 .btn-primary {
   border: 0;
-  font-family: "Junge", serif;
+  font-family: "Junge" serif;
   font-size: 1.2rem;
 }
 
 .btn-primary:hover {
-  background-color: #04a7e7;
+  background-color: #04a7e7 !important;
 }
 
 .card-group {
@@ -111,7 +111,7 @@ footer {
 }
 
 .footer h6 {
-  color: white;
+  color: white !important;
 }
 
 .footer a:link {
@@ -139,16 +139,6 @@ h5 {
   padding: 30px 90px;
 }
 
-.imagen-social:hover {
-  opacity: 0.9;
-  background-color: wheat;
-  border-radius: 10px;
-}
-
-.nav-menu_visible {
-  left: 0 !important;
-}
-
 /*Style media querys*/
 @media (max-width: 992px) {
   nav ul li a {
@@ -174,4 +164,8 @@ h5 {
   .btn-primary {
     font-size: 1rem;
   }
+}
+
+.registro {
+  cursor: pointer !important;
 }

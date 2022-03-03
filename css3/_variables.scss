@@ -1,9 +1,31 @@
-$font-page: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-$background-body: linear-gradient(180deg, #b9b9b9 0, #fcfcfc 50%, #b9b9b9 100%);
-$text-none: none;
-$color-white: white;
-$color-gray: #c7c7c7;
-$fonbold: bold;
-$spanblack: black;
-$font-Junge: "Junge", serif;
-$center: center;
+$colors: (
+  blanco: white,
+  gris: #c7c7c7,
+  negro: black,
+  grisoscuro: rgb(158, 158, 158),
+  azul: #066bad,
+  azulclaro: #04a7e7,
+);
+$estilos: (
+  decoracion: none,
+  fonfamily: "Junge" serif,
+  centro: center,
+  fonbold: bold,
+  fondobody: linear-gradient(180deg, #b9b9b9 0, #fcfcfc 50%, #b9b9b9 100%),
+);
+
+@mixin minaltura($minheight) {
+  min-height: $minheight;
+}
+
+@mixin ancho($width) {
+  width: $width;
+}
+
+@mixin altura($height) {
+  height: $height;
+}
+
+@mixin maxancho($maxwidth) {
+  max-width: $maxwidth;
+}
