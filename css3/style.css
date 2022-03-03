@@ -60,8 +60,15 @@ span {
   color: black !important;
 }
 
-.btn-primary {
+.boton, .btn-primary {
+  border: 0;
+  font-size: 1.2rem;
+  font-family: "Junge" serif;
   background-color: #066bad;
+}
+
+.btn-primary:hover {
+  background-color: #04a7e7 !important;
 }
 
 .card {
@@ -71,16 +78,6 @@ span {
 .card:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
   transform: translateY(-1%);
-}
-
-.btn-primary {
-  border: 0;
-  font-family: "Junge" serif;
-  font-size: 1.2rem;
-}
-
-.btn-primary:hover {
-  background-color: #04a7e7 !important;
 }
 
 .card-group {

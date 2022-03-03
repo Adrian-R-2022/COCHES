@@ -79,7 +79,7 @@ h1 {
 }
 
 hr {
-  height: 1px !important;
+  @include altura(1px !important);
   background-color: map-get($colors, grisoscuro);
   opacity: 1 !important;
 }
@@ -88,8 +88,18 @@ span {
   color: map-get($colors, negro) !important;
 }
 
-.btn-primary {
+.boton {
+  border: 0;
+  font-size: 1.2rem;
+  font-family: map-get($estilos, fonfamily);
   background-color: map-get($colors, azul);
+}
+
+.btn-primary {
+  @extend .boton;
+  &:hover {
+    background-color: map-get($colors, azulclaro) !important;
+  }
 }
 
 .card {
@@ -97,15 +107,6 @@ span {
   &:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
     transform: translateY(-1%);
-  }
-}
-
-.btn-primary {
-  border: 0;
-  font-family: map-get($estilos, fonfamily);
-  font-size: 1.2rem;
-  &:hover {
-    background-color: map-get($colors, azulclaro) !important;
   }
 }
 
