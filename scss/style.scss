@@ -120,12 +120,14 @@ span {
 
 .formulario {
   justify-content: map-get($estilos, centro);
+  text-align: center;
 }
 
 footer {
   position: absolute;
   bottom: 0;
   @include ancho(100%);
+  margin-top: 400px;
 }
 
 .footer {
@@ -165,11 +167,7 @@ h5 {
 
 .form-sesion {
   padding: 30px 90px;
-  @include altura(492px);
-}
-
-.form-sesion2 {
-  padding: 30px 90px;
+  width: 600px;
 }
 
 /*Style media querys*/

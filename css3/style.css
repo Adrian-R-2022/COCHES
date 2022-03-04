@@ -90,12 +90,14 @@ span {
 
 .formulario {
   justify-content: center;
+  text-align: center;
 }
 
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  margin-top: 400px;
 }
 
 .footer {
@@ -129,11 +131,7 @@ h5 {
 
 .form-sesion {
   padding: 30px 90px;
-  height: 492px;
-}
-
-.form-sesion2 {
-  padding: 30px 90px;
+  width: 600px;
 }
 
 /*Style media querys*/
