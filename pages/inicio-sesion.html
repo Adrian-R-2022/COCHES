@@ -56,71 +56,59 @@
       </nav>
     </header>
 
-    <section>
-      <div class="container-main">
-        <div class="container-fluid p-5">
-          <br />
-          <h2>Inicio de sesión</h2>
-          <hr />
-          <br /><br />
-          <form class="formulario row row-cols-lg-auto g-3">
-            <div class="form-sesion">
-              <link rel="icon" href="../assets/img/llanta.png" />
-              <div class="correo form-floating mb-3 col-12">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
-                <label for="floatingInput">Correo electrónico</label>
+    <main>
+      <section>
+        <div class="container-main">
+          <div class="container-fluid p-5">
+            <h2>Inicio de sesión</h2>
+            <hr />
+            <center>
+              <div class="col-lg-5 col-xl-4">
+                <h2 class="fw-bold py-5">Bienvenido</h2>
+                <form>
+                  <div class="mb-4">
+                    <input type="email" class="form-control" name="email" placeholder="Correo eléctronico" />
+                  </div>
+                  <div class="mb-4">
+                    <input type="password" class="form-control" name="password" placeholder="Contraseña" />
+                  </div>
+                  <div class="mb-4">
+                    <input type="checkbox" class="form-check-input" name="connected" />
+                    <label class="form-check-label" for="connected">Mantenerme conectado</label>
+                  </div>
+                  <div class="my-4">
+                    <span>No tienes cuenta?<a href="registro.html"> Regístrate</a> </span><br />
+                    <span><a href="pass.html">Recuperar Contraseña</a></span>
+                  </div>
+                  <div class="d-grid">
+                    <br />
+                    <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                  </div>
+                </form>
+                <br /><br /><br />
               </div>
-              <div class="form-floating col-12">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
-                <label for="floatingPassword">Contraseña</label>
-              </div>
-              <br />
-              <div class="form-check col-4">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                <label class="form-check-label" for="exampleCheck1"><h6>Guardar datos</h6></label>
-              </div>
-              <br />
-              <div class="form-floating">
-                <a><h5>¿No tienes cuenta?</h5></a>
-                <a href="registro.html"
-                  ><label class="registro"><h4>Registrate</h4></label></a
-                >
-                <br /><br />
-                <button type="submit" class="btn btn-success">Iniciar sesión</button>
-              </div>
-            </div>
-          </form>
-          <br />
+            </center>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <footer class="bg-danger text-white">
       <div class="container-fluid">
-        <ul class="footer nav justify-content-around p-3">
+        <ul class="footer nav justify-content-around p-2">
           <li class="nav-item">
             <h5>AYUDA</h5>
-            <h6>Sobre Coches compra y venta</h6>
             <h6>Términos y condiciones</h6>
             <a href="contacto.html"><h6>Contacto</h6></a>
           </li>
           <li class="nav-item">
-            <h5>SITIOS</h5>
-            <a href="cochesnuevos.html"><h6>Coches nuevos</h6></a>
-            <a href="cochesusados.html"><h6>Coches usados</h6></a>
-          </li>
-          <li class="nav-item">
-            <h5>INFORMACIÓN</h5>
-            <a href="noticias.html"><h6>Noticias</h6></a>
-          </li>
-          <li class="nav-item">
             <h5>SIGUENOS</h5>
-            <a href="https://www.facebook.com/" target="_blank"><img height="36" width="36" src="../assets/img/face.png" class="imagen-social" alt="Facebook.com" /></a>
-            <a href="https://www.instagram.com" target="_blank"><img height="36" width="36" src="../assets/img/insta.png" class="imagen-social" alt="Instagram.com" /></a>
+            <a href="https://www.facebook.com/" target="_blank"><img height="30" width="30" src="../assets/img/face.png" class="imagen-social" alt="Facebook.com" /></a>
+            <a href="https://www.instagram.com" target="_blank"><img height="30" width="30" src="../assets/img/insta.png" class="imagen-social" alt="Instagram.com" /></a>
           </li>
         </ul>
       </div>
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2)">
         © 2022 Copyright:
         <a class="text-white" href="#">Coches.com</a>
       </div>

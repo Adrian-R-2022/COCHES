@@ -130,6 +130,10 @@ footer {
   margin-top: 400px;
 }
 
+main {
+  padding-bottom: 11rem;
+}
+
 .footer {
   justify-content: space-evenly;
   text-align: map-get($estilos, centro);
@@ -157,25 +161,13 @@ footer {
   }
 }
 
-.p-3 {
-  padding: 1rem !important;
-}
-
-h5 {
-  color: royalblue;
-}
-
-.form-sesion {
-  padding: 30px 90px;
-  width: 600px;
+.registro {
+  cursor: pointer !important;
 }
 
 /*Style media querys*/
 
 @media (max-width: 575px) {
-}
-
-@media (max-width: 576px) {
 }
 
 @media (max-width: 768px) {
@@ -198,6 +190,13 @@ h5 {
   .btn-primary {
     font-size: 1rem;
   }
+  .navbar-brand {
+    font-size: 22px !important;
+  }
+  .navbar-brand2 {
+    font-size: 10px !important;
+    right: 80px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -218,8 +217,4 @@ h5 {
   .btn-primary {
     font-size: 1rem;
   }
-}
-
-.registro {
-  cursor: pointer !important;
 }

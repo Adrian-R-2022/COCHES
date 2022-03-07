@@ -56,102 +56,98 @@
       </nav>
     </header>
 
-    <section>
-      <div class="container-main">
-        <div class="container-fluid p-5">
-          <br />
-          <h2>Vende Tu Coche</h2>
-          <hr />
-          <form class="formulario row row-cols-lg-auto g-3">
-            <div class="form-sesion">
-              <div class="form-floating mb-3 col-12">
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Selecciona la marca</option>
-                  <option value="1">Nissan</option>
-                  <option value="2">Chevrolet</option>
-                </select>
-              </div>
-              <div class="form-floating mb-3 col-12">
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Selecciona el modelo</option>
-                </select>
-              </div>
-              <div class="form-floating mb-3 col-12">
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Selecciona el año</option>
-                  <option value="1">2022</option>
-                  <option value="2">2021</option>
-                </select>
-              </div>
-              <div class="form-floating mb-3 col-12">
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Selecciona el tipo de coche</option>
-                  <option value="1">2022</option>
-                  <option value="2">2021</option>
-                </select>
-              </div>
-              <div class="form-floating mb-3 col-12">
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Selecciona el estado</option>
-                  <option value="1">Guanajuato</option>
-                  <option value="2">Queretaro</option>
-                </select>
-              </div>
-              <div class="form-floating mb-3 col-12">
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Selecciona el municipio</option>
-                </select>
-              </div>
-              <div class="form-floating mb-3 col-12">
-                <label for="formFileMultiple" class="form-label"></label>
-                <input class="form-control" type="file" id="formFileMultiple" multiple />
-              </div>
-              <div class="form-floating mb-3 col-12">
-                <label for="exampleFormControlTextarea1" class="form-label">Descripción del coche</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-              </div>
-              <div class="form-floating">
+    <main>
+      <section>
+        <div class="container-main">
+          <div class="container-fluid p-5">
+            <br />
+            <h2>Vende Tu Coche</h2>
+            <hr />
+            <center>
+              <div class="col-lg-5 col-xl-4">
+                <h2 class="fw-bold py-5">Publica tu coche</h2>
+                <p style="text-align: justify">Para llenar los datos del coche es necesario iniciar sesión para despues proceder con la publicación.</p>
                 <br />
-                <button type="submit" class="btn btn-success">Subir Publicación</button>
+                <form>
+                  <div class="mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Selecciona la marca</option>
+                      <option value="1">Nissan</option>
+                      <option value="2">Chevrolet</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Selecciona el modelo</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Selecciona el año</option>
+                      <option value="1">2022</option>
+                      <option value="2">2021</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Selecciona el tipo de coche</option>
+                      <option value="1">2022</option>
+                      <option value="2">2021</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Selecciona el estado</option>
+                      <option value="1">Guanajuato</option>
+                      <option value="2">Queretaro</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Selecciona el municipio</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label"></label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple />
+                  </div>
+                  <div class="mb-3">
+                    <textarea class="form-control" placeholder="Observación ó Descripción" id="floatingTextarea2" style="height: 120px"></textarea>
+                  </div>
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Subir Publicación</button>
+                  </div>
+                </form>
               </div>
-            </div>
-          </form>
-          <br />
+              <!--col-lg-5 col-xl-5-->
+            </center>
+          </div>
+          <!--container-fluid-->
         </div>
-      </div>
-    </section>
+        <!--container-main-->
+      </section>
+    </main>
 
     <footer class="bg-danger text-white">
       <div class="container-fluid">
-        <ul class="footer nav justify-content-around p-3">
+        <ul class="footer nav justify-content-around p-2">
           <li class="nav-item">
             <h5>AYUDA</h5>
-            <h6>Sobre Coches compra y venta</h6>
             <h6>Términos y condiciones</h6>
             <a href="contacto.html"><h6>Contacto</h6></a>
           </li>
           <li class="nav-item">
-            <h5>SITIOS</h5>
-            <a href="cochesnuevos.html"><h6>Coches nuevos</h6></a>
-            <a href="cochesusados.html"><h6>Coches usados</h6></a>
-          </li>
-          <li class="nav-item">
-            <h5>INFORMACIÓN</h5>
-            <a href="noticias.html"><h6>Noticias</h6></a>
-          </li>
-          <li class="nav-item">
             <h5>SIGUENOS</h5>
-            <a href="https://www.facebook.com/" target="_blank"><img height="36" width="36" src="../assets/img/face.png" class="imagen-social" alt="Facebook.com" /></a>
-            <a href="https://www.instagram.com" target="_blank"><img height="36" width="36" src="../assets/img/insta.png" class="imagen-social" alt="Instagram.com" /></a>
+            <a href="https://www.facebook.com/" target="_blank"><img height="30" width="30" src="../assets/img/face.png" class="imagen-social" alt="Facebook.com" /></a>
+            <a href="https://www.instagram.com" target="_blank"><img height="30" width="30" src="../assets/img/insta.png" class="imagen-social" alt="Instagram.com" /></a>
           </li>
         </ul>
       </div>
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2)">
         © 2022 Copyright:
         <a class="text-white" href="#">Coches.com</a>
       </div>
     </footer>
-
     <!--JS Bootstrap-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

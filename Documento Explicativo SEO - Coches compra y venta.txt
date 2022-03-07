@@ -16,6 +16,8 @@ index.html
 	Inicio de sesión
 	Registro.html
 	Registro
+	pass.html
+	Recuperación de contraseña
 	 
  
 Palabras clave meta
@@ -35,6 +37,8 @@ index.html
 	inicio de sesión, iniciar sesion, sesion de coches, login coches
 	Registro.html
 	registrar cuenta, registro en coches, record, registro
+	pass.html
+	recupera, pass, contraseña, contraseña, recuperación
 	 
 Descripciones meta
 index.html
@@ -54,6 +58,8 @@ index.html
 )
 	Registro.html
 	Descripción de registro (Registrate para publicar tu coche en Coches compra y venta de coches nuevos y usados)
+	pass.html
+	Descripción de pass (Recupera ó actualiza tu contraseña en Coches compra y venta) 
 	 
  
 Esquema de la página
@@ -78,3 +84,5 @@ También se mejoró lo que es la parte del footer dándole un color de gris plat
 Se quitó el hover en los iconos de facebook e instagram ya no resaltaba mucho.
 Se agregó un enlace de inicio al icono de Coches en cada una de las páginas.
 Se aplicó SASS como los mapas, map-get, mixins, extends, declaración de variables y se importaron a otro archivo para una mejor optimización y reutilización de código.
+Se dio unos ajuste en el diseño de los formularios de la página contactos, ventacoches, inicio-sesion, registro y se agregó otra página pass y se dio un pequeña modificación en cuanto al responsiv.
+Se agregó un main con un padding-bottom dentro de section para evitar que el footer tape parte de section y listo.
