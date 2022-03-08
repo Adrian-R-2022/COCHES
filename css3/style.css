@@ -80,6 +80,10 @@ span {
   transform: translateY(-1%);
 }
 
+h5 {
+  color: royalblue;
+}
+
 .card-group {
   justify-content: space-between !important;
 }
